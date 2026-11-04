@@ -1,0 +1,10 @@
+[project]
+name = "claro-customer-journey-churn-poc"
+version = "0.1.0"
+description = "POC independente com dados sintéticos para rastreabilidade de cancelamentos e jornada pre-loja"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

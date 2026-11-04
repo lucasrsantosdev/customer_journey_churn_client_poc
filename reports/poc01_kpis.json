@@ -1,0 +1,17 @@
+{
+  "coorte": "2026-10",
+  "cancelamentos": 240,
+  "clientes_sinteticos": 600,
+  "movel_cancelamentos": 144,
+  "fixa_cancelamentos": 96,
+  "ligacoes_analisadas": 1008,
+  "ligacoes_cancelados_180d": 621,
+  "percentual_indeterminado": 7.08,
+  "confiancas": {
+    "SEM_EVIDENCIA": 17,
+    "ALTA_CORROBORADA": 199,
+    "MEDIA": 15,
+    "ALTA_CONFIRMADA": 9
+  },
+  "nota": "Percentuais inteiramente sinteticos; nao representam a CLARO."
+}

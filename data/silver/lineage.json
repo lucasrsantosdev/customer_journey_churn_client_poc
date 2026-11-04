@@ -1,0 +1,6 @@
+{
+  "source_count": 14,
+  "event_count": 6905,
+  "source_lineage": "evento_id=fonte:id_origem",
+  "note": "ofertas_mercado relaciona por mes_ref, regiao e produto, NAO por cliente_hash."
+}

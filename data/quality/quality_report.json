@@ -1,0 +1,346 @@
+{
+  "versao": "0.1.0",
+  "total_testes": 67,
+  "aprovados": 67,
+  "reprovados": 0,
+  "status": "PASS",
+  "resultado": [
+    {
+      "teste": "fonte_existe_clientes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_clientes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_contratos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_contratos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_cancelamentos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_cancelamentos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_ura_ligacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_ura_ligacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_loja_atendimentos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_loja_atendimentos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_digital_interacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_digital_interacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_suporte_tickets",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_suporte_tickets",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_visitas_tecnicas",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_visitas_tecnicas",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_faturas",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_faturas",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_acordos_financeiros",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_acordos_financeiros",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_reclamacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_reclamacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_portabilidades",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_portabilidades",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_pesquisas_saida",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_pesquisas_saida",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "fonte_existe_ofertas_mercado",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cabecalho_ofertas_mercado",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cliente_hash_unico",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "hash_hmac_sha256_formato",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_id_unico",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_clientes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_contratos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_contratos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_cancelamentos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_cancelamentos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_ura_ligacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_ura_ligacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_loja_atendimentos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_loja_atendimentos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_digital_interacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_digital_interacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_suporte_tickets",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_suporte_tickets",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_visitas_tecnicas",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_visitas_tecnicas",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_faturas",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_faturas",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_acordos_financeiros",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_acordos_financeiros",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_reclamacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_reclamacoes",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_portabilidades",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_portabilidades",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "chave_cliente_pesquisas_saida",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "contrato_valido_pesquisas_saida",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "mercado_sem_hash_pessoal",
+      "status": "PASS",
+      "detalhe": "Dados de mercado agregados por periodo, regiao, produto."
+    },
+    {
+      "teste": "coorte_outubro_2026",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cancelamentos_unicos",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "tecnico_residencial_apenas_fixa",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "sem_telefone_cpf_nome_sintetico",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "eventos_id_unico",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "eventos_tem_linhagem",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "cada_cancelamento_tem_uma_causa",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "nao_forcar_concorrente_sem_evidencia",
+      "status": "PASS",
+      "detalhe": ""
+    },
+    {
+      "teste": "janela_180_dias_diferenciada_da_calendario",
+      "status": "PASS",
+      "detalhe": "180 dias antes do timestamp individual; calendario abril-setembro 183 dias"
+    },
+    {
+      "teste": "tickets_30d_sem_posterior_a_cancelamento",
+      "status": "PASS",
+      "detalhe": ""
+    }
+  ],
+  "falhas": [],
+  "advertencia": "Validacao apenas de dados ficticios; qualidade real exige acordos de dados."
+}

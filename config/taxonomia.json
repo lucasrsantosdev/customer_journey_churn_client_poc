@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "note": "Taxonomia ilustrativa. Nunca usar como verdade de negocio sem validacao da equipe de operacao.",
+  "motivos": {
+    "tecnico": ["sem sinal", "queda", "lento", "instabilidade", "roteador", "falha tecnica"],
+    "financeiro": ["atraso", "fatura", "renegociar", "inadimplencia", "parcelamento", "cobranca"],
+    "atendimento": ["nao resolveu", "atendimento", "repetir", "transferiu", "fila", "sem retorno"],
+    "preco_oferta": ["preco", "caro", "desconto", "promocao", "oferta", "valor mensal"],
+    "concorrencia": ["portabilidade", "outra operadora", "migracao", "vivo", "tim", "algar"],
+    "comercial": ["contratacao", "venda", "plano errado", "cobranca indevida", "fidelizacao"]
+  },
+  "canais": ["URA_INBOUND", "URA_OUTBOUND", "LOJA_PROPRIA", "PONTO_VENDA", "APP", "SITE", "SUPORTE", "TECNICO_RESIDENCIAL", "FINANCEIRO", "RECLAMACAO", "PESQUISA_SAIDA", "PORTABILIDADE"],
+  "grupos_produto": ["MOVEL", "FIXA"]
+}

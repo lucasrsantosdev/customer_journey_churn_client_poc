@@ -1,0 +1,16 @@
+# Segredos e ambientes
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+# Fontes reais nunca devem entrar no repositório
+/data/raw/real/
+/data/private/
+/data/warehouse/*.sqlite-journal
+/data/warehouse/*.sqlite-wal
+/data/warehouse/*.sqlite-shm
+# Dados sintéticos e artefatos demonstrativos são intencionalmente versionáveis

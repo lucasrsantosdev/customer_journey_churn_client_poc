@@ -1,0 +1,13 @@
+{
+  "visitas_loja": 228,
+  "clientes_unicos_com_loja": 206,
+  "clientes_que_usaram_ura_30d": 138,
+  "clientes_que_usaram_app_30d": 94,
+  "clientes_que_usaram_site_30d": 77,
+  "clientes_com_suporte_30d": 35,
+  "clientes_com_tecnico_30d": 15,
+  "clientes_multicanal_30d": 136,
+  "percentual_ura_pre_loja": 66.99,
+  "percentual_multicanal_pre_loja": 66.02,
+  "observacao": "Denominador: contratos/clientes unicos com ao menos uma visita; ultima visita na janela. Valores sinteticos."
+}

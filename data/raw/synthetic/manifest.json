@@ -1,0 +1,223 @@
+{
+  "seed": 202610,
+  "customers": 600,
+  "cancellations_oct_2026": 240,
+  "datasets": {
+    "clientes": {
+      "rows": 600,
+      "columns": [
+        "cliente_hash",
+        "segmento",
+        "uf",
+        "cidade",
+        "regiao",
+        "dt_ativacao",
+        "perfil_sintetico"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/clientes.csv"
+    },
+    "contratos": {
+      "rows": 600,
+      "columns": [
+        "contrato_id",
+        "cliente_hash",
+        "produto",
+        "plano",
+        "mensalidade",
+        "dt_inicio",
+        "status_atual"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/contratos.csv"
+    },
+    "cancelamentos": {
+      "rows": 240,
+      "columns": [
+        "cancelamento_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_cancelamento",
+        "canal_solicitacao",
+        "motivo_declarado",
+        "tipo_cancelamento"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/cancelamentos.csv"
+    },
+    "ura_ligacoes": {
+      "rows": 1008,
+      "columns": [
+        "ligacao_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_hora",
+        "direcao",
+        "tema_registrado",
+        "protocolo",
+        "duracao_seg",
+        "transferencias",
+        "resolvido_primeiro_contato",
+        "transcricao_ficticia"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/ura_ligacoes.csv"
+    },
+    "loja_atendimentos": {
+      "rows": 228,
+      "columns": [
+        "atendimento_loja_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_hora",
+        "loja_id",
+        "tipo_loja",
+        "motivo_visita",
+        "protocolo",
+        "resolvido"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/loja_atendimentos.csv"
+    },
+    "digital_interacoes": {
+      "rows": 783,
+      "columns": [
+        "interacao_digital_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_hora",
+        "plataforma",
+        "acao",
+        "tema",
+        "protocolo",
+        "resultado"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/digital_interacoes.csv"
+    },
+    "suporte_tickets": {
+      "rows": 147,
+      "columns": [
+        "ticket_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_abertura",
+        "dt_fechamento",
+        "canal_abertura",
+        "categoria",
+        "status",
+        "resultado"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/suporte_tickets.csv"
+    },
+    "visitas_tecnicas": {
+      "rows": 95,
+      "columns": [
+        "visita_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_hora",
+        "ordem_servico",
+        "diagnostico",
+        "status_visita",
+        "visita_repetida"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/visitas_tecnicas.csv"
+    },
+    "faturas": {
+      "rows": 4095,
+      "columns": [
+        "fatura_id",
+        "cliente_hash",
+        "contrato_id",
+        "mes_ref",
+        "dt_vencimento",
+        "valor",
+        "dt_pagamento",
+        "status_pagamento",
+        "dias_atraso"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/faturas.csv"
+    },
+    "acordos_financeiros": {
+      "rows": 68,
+      "columns": [
+        "acordo_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_hora",
+        "valor_renegociado",
+        "qtd_parcelas",
+        "status_acordo"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/acordos_financeiros.csv"
+    },
+    "reclamacoes": {
+      "rows": 75,
+      "columns": [
+        "reclamacao_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_hora",
+        "origem",
+        "tema",
+        "status",
+        "dt_resolucao",
+        "texto_ficticio"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/reclamacoes.csv"
+    },
+    "portabilidades": {
+      "rows": 9,
+      "columns": [
+        "portabilidade_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_evento",
+        "prestadora_destino",
+        "fonte_registro",
+        "verificacao_autorizada"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/portabilidades.csv"
+    },
+    "pesquisas_saida": {
+      "rows": 157,
+      "columns": [
+        "pesquisa_id",
+        "cliente_hash",
+        "contrato_id",
+        "dt_hora",
+        "resposta_motivo",
+        "concorrente_declarado",
+        "nota_atendimento",
+        "autorizado"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/pesquisas_saida.csv"
+    },
+    "ofertas_mercado": {
+      "rows": 168,
+      "columns": [
+        "oferta_id",
+        "mes_ref",
+        "regiao",
+        "produto",
+        "prestadora",
+        "valor_mensal",
+        "tipo_oferta",
+        "fonte_publica",
+        "validade_inicio",
+        "validade_fim"
+      ],
+      "synthetic": true,
+      "path": "data/raw/synthetic/ofertas_mercado.csv"
+    }
+  },
+  "warning": "100% DADOS SINTETICOS; nenhum dado de cliente real."
+}

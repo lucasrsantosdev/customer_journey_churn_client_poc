@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CLARO | Jornada & Churn — Demonstracao</title><style>
+:root{--navy:#092244;--blue:#1169d6;--cyan:#07a9df;--bg:#f3f6fb;--white:#fff;--mute:#64748b;--border:#e3eaf3}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font:15px system-ui,-apple-system,Segoe UI,sans-serif;color:#172b48}
+header{background:linear-gradient(130deg,#092244 0%,#0f4c97 68%,#087dc5 100%);color:white;padding:45px 7% 48px}
+header h1{margin:0 0 7px;font-size:clamp(26px,4vw,39px)}header p{max-width:800px;line-height:1.6;opacity:.88}
+.alert{display:inline-block;background:#fff2c4;color:#624c00;padding:8px 13px;border-radius:5px;font-size:12px;font-weight:700;letter-spacing:.04em}
+main{max-width:1250px;margin:-24px auto 60px;padding:0 24px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:24px}
+.kpi{background:white;border:1px solid var(--border);border-radius:12px;padding:24px 18px;box-shadow:0 6px 20px #152d4710}
+.num{font-weight:750;font-size:29px;color:var(--navy);margin-bottom:8px}
+.kpi strong{display:block;font-size:13px}.kpi small{display:block;color:var(--mute);margin-top:7px}
+.section{background:white;border:1px solid var(--border);border-radius:12px;padding:24px 28px;margin:18px 0;overflow:auto}
+h2{font-size:20px;margin:0 0 8px}p.lead{margin:0 0 18px;color:var(--mute);font-size:13px;line-height:1.5}
+table{width:100%;border-collapse:collapse;min-width:600px;font-size:13px}th,td{text-align:left;padding:12px 10px;border-bottom:1px solid #edf0f5}th{color:#53647b;font-weight:650;background:#f8fafd}
+.n{text-align:right;font-variant-numeric:tabular-nums}.barwrap{height:9px;background:#e8eff9;border-radius:9px;min-width:100px;overflow:hidden}
+.bar{height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan));border-radius:9px}.chip{display:inline-block;padding:4px 9px;border-radius:5px;background:#e9f3ff;color:#07548f;font-size:11px;font-weight:750}
+footer{color:var(--mute);font-size:12px;line-height:1.7;padding:0 26px}.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:16px}
+.note{background:#f5f9ff;border-left:3px solid var(--blue);padding:15px 19px;font-size:13px;line-height:1.7;border-radius:3px}
+</style></head><body><header><div class="alert">100% DADOS SINTÉTICOS — NÃO SÃO INDICADORES REAIS DA CLARO</div>
+<h1>Customer Journey & Churn Intelligence</h1><p>Prova de conceito v0.1 · Coorte fechada de outubro/2026 · Móvel e Fixa · Rastreabilidade de 180 dias</p></header>
+<main><section class="cards"><article class="kpi"><div class="num">240</div><strong>Cancelamentos da coorte</strong><small>Outubro / 2026</small></article><article class="kpi"><div class="num">600</div><strong>Clientes sintéticos</strong><small>Inclui grupo ativo</small></article><article class="kpi"><div class="num">1008</div><strong>Ligações classificadas</strong><small>URA inbound e outbound</small></article><article class="kpi"><div class="num">7.1%</div><strong>Sem causa suficiente</strong><small>Não imputar à concorrência</small></article><article class="kpi"><div class="num">228</div><strong>Visitas às lojas</strong><small>POC 02</small></article><article class="kpi"><div class="num">67.0%</div><strong>Clientes pré-loja com URA</strong><small>Base: clientes com loja</small></article></section>
+<section class="section"><h2>POC 01 · Causas principais inferidas por produto</h2><p class="lead">Uma causa principal por cancelamento; percentuais calculados dentro de cada produto. Classificação por regras explicáveis e evidências rastreáveis, ainda não homologada.</p>
+<table><thead><tr><th>Produto</th><th>Hipótese de causa principal</th><th class="n">Clientes</th><th>Distribuição</th><th class="n">Percentual</th></tr></thead><tbody><tr><td><span class="chip">FIXA</span></td>
+        <td>financeiro</td><td class="n">25</td>
+        <td><div class="barwrap"><div class="bar" style="width:26.04%"></div></div></td><td class="n">26.0%</td></tr><tr><td><span class="chip">FIXA</span></td>
+        <td>tecnico</td><td class="n">24</td>
+        <td><div class="barwrap"><div class="bar" style="width:25.0%"></div></div></td><td class="n">25.0%</td></tr><tr><td><span class="chip">FIXA</span></td>
+        <td>atendimento</td><td class="n">20</td>
+        <td><div class="barwrap"><div class="bar" style="width:20.83%"></div></div></td><td class="n">20.8%</td></tr><tr><td><span class="chip">FIXA</span></td>
+        <td>comercial</td><td class="n">9</td>
+        <td><div class="barwrap"><div class="bar" style="width:9.38%"></div></div></td><td class="n">9.4%</td></tr><tr><td><span class="chip">FIXA</span></td>
+        <td>indeterminado</td><td class="n">9</td>
+        <td><div class="barwrap"><div class="bar" style="width:9.38%"></div></div></td><td class="n">9.4%</td></tr><tr><td><span class="chip">FIXA</span></td>
+        <td>preco_oferta</td><td class="n">8</td>
+        <td><div class="barwrap"><div class="bar" style="width:8.33%"></div></div></td><td class="n">8.3%</td></tr><tr><td><span class="chip">FIXA</span></td>
+        <td>concorrencia</td><td class="n">1</td>
+        <td><div class="barwrap"><div class="bar" style="width:1.04%"></div></div></td><td class="n">1.0%</td></tr><tr><td><span class="chip">MOVEL</span></td>
+        <td>financeiro</td><td class="n">43</td>
+        <td><div class="barwrap"><div class="bar" style="width:29.86%"></div></div></td><td class="n">29.9%</td></tr><tr><td><span class="chip">MOVEL</span></td>
+        <td>tecnico</td><td class="n">36</td>
+        <td><div class="barwrap"><div class="bar" style="width:25.0%"></div></div></td><td class="n">25.0%</td></tr><tr><td><span class="chip">MOVEL</span></td>
+        <td>atendimento</td><td class="n">17</td>
+        <td><div class="barwrap"><div class="bar" style="width:11.81%"></div></div></td><td class="n">11.8%</td></tr><tr><td><span class="chip">MOVEL</span></td>
+        <td>preco_oferta</td><td class="n">15</td>
+        <td><div class="barwrap"><div class="bar" style="width:10.42%"></div></div></td><td class="n">10.4%</td></tr><tr><td><span class="chip">MOVEL</span></td>
+        <td>concorrencia</td><td class="n">14</td>
+        <td><div class="barwrap"><div class="bar" style="width:9.72%"></div></div></td><td class="n">9.7%</td></tr><tr><td><span class="chip">MOVEL</span></td>
+        <td>comercial</td><td class="n">11</td>
+        <td><div class="barwrap"><div class="bar" style="width:7.64%"></div></div></td><td class="n">7.6%</td></tr><tr><td><span class="chip">MOVEL</span></td>
+        <td>indeterminado</td><td class="n">8</td>
+        <td><div class="barwrap"><div class="bar" style="width:5.56%"></div></div></td><td class="n">5.6%</td></tr></tbody></table></section>
+<section class="section"><h2>POC 02 · Transições de canais mais frequentes</h2><p class="lead">Transições adjacentes na jornada de 180 dias; representam eventos, não clientes únicos.</p>
+<table><thead><tr><th>Produto</th><th>Origem</th><th>Próximo canal</th><th class="n">Transições</th></tr></thead><tbody><tr><td>MOVEL</td><td>APP</td><td>URA_INBOUND</td><td class='n'>121</td></tr><tr><td>MOVEL</td><td>SITE</td><td>URA_INBOUND</td><td class='n'>118</td></tr><tr><td>MOVEL</td><td>URA_INBOUND</td><td>SITE</td><td class='n'>80</td></tr><tr><td>MOVEL</td><td>URA_INBOUND</td><td>APP</td><td class='n'>77</td></tr><tr><td>FIXA</td><td>APP</td><td>URA_INBOUND</td><td class='n'>75</td></tr><tr><td>FIXA</td><td>SITE</td><td>URA_INBOUND</td><td class='n'>75</td></tr><tr><td>FIXA</td><td>URA_INBOUND</td><td>APP</td><td class='n'>60</td></tr><tr><td>MOVEL</td><td>SUPORTE</td><td>URA_INBOUND</td><td class='n'>54</td></tr><tr><td>FIXA</td><td>URA_INBOUND</td><td>SITE</td><td class='n'>50</td></tr><tr><td>FIXA</td><td>TECNICO_RESIDENCIAL</td><td>URA_INBOUND</td><td class='n'>44</td></tr><tr><td>FIXA</td><td>URA_INBOUND</td><td>TECNICO_RESIDENCIAL</td><td class='n'>28</td></tr><tr><td>MOVEL</td><td>URA_INBOUND</td><td>RECLAMACAO</td><td class='n'>28</td></tr><tr><td>MOVEL</td><td>SITE</td><td>SUPORTE</td><td class='n'>27</td></tr><tr><td>MOVEL</td><td>URA_INBOUND</td><td>LOJA_PROPRIA</td><td class='n'>27</td></tr></tbody></table></section>
+<div class="two"><div class="note"><strong>Como ler a análise</strong><br>Motivo declarado ≠ causa principal inferida. Uma pessoa pode ter múltiplas evidências. As hipóteses requerem validação manual e dados reais governados.</div>
+<div class="note"><strong>Concorrência e LGPD</strong><br>Oferta regional é apenas variável contextual. Só há identificação de destino quando existe registro autorizado de portabilidade ou declaração do próprio cliente.</div></div>
+</main><footer>Estudo demonstrativo, sem clientes reais. Consulte README.md, docs/hipoteses_e_metricas.md e relatórios CSV para detalhes.</footer></body></html>
